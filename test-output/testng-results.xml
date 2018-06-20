@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3878" started-at="2018-06-20T12:27:37Z" finished-at="2018-06-20T12:27:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3878" started-at="2018-06-20T12:27:37Z" finished-at="2018-06-20T12:27:40Z">
+      <class name="com.qait.base.Configuration">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.qait.base.Configuration@4501b7af]" name="start" duration-ms="3853" started-at="2018-06-20T12:27:37Z" finished-at="2018-06-20T12:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+      </class> <!-- com.qait.base.Configuration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
