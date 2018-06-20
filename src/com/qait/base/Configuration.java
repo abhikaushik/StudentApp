@@ -20,6 +20,7 @@ public class Configuration {
 		Validate.validateTextOnAnyElement(driver, "//*[@id=\"gbw\"]/div/div/div[1]/div[1]/a",
 				"Gmail");
 		System.out.println("+++++++ Validation Test is Passed +++++++++");
+		System.out.println("+++++++ Validation Test is Passed +++++++++");
 
 	}
 
