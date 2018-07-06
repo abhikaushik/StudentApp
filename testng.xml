@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+		
+			<class name="com.StudentApp.tests.Test_WelcomePage">
+				<methods>
+					<include name="TC_001_verify_loginpanel_section" />
+					
+					
+					<exclude name="TC_008_verify_payrollLink_section" />
+				</methods>
+			</class>
+			
+			<class name="com.StudentApp.tests.Test_Login">
+				<methods>
+					
+					<include name="TC001_Login_With_Credentials" />
+					
+					<exclude name="TC_008_verify_payrollLink_section" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
