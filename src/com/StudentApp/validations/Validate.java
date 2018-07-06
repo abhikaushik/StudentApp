@@ -1,4 +1,4 @@
-package com.qait.validations;
+package com.StudentApp.validations;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,10 +37,21 @@ public class Validate {
 		return flag;
 	}
 
-	public static boolean validateTextOnAnyElement(WebDriver driver, String xpath, String expText) {
+	public static boolean validateExactTextOnAnyElement(WebDriver driver, String xpath, String expText) {
 
 		boolean flag = false;
 		if (driver.findElement(By.xpath(xpath)).getText().equalsIgnoreCase(expText)) {
+
+			flag = true;
+		}
+
+		return flag;
+	}
+	
+	public static boolean validateMatchingTextOnAnyElement(WebDriver driver, String xpath, String matchText) {
+
+		boolean flag = false;
+		if (driver.findElement(By.xpath(xpath)).getText().contains(matchText)) {
 
 			flag = true;
 		}

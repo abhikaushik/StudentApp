@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3878" started-at="2018-06-20T12:27:37Z" finished-at="2018-06-20T12:27:40Z">
+  <suite started-at="2018-06-28T10:43:01Z" name="Suite" finished-at="2018-06-28T10:46:18Z" duration-ms="196770">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3878" started-at="2018-06-20T12:27:37Z" finished-at="2018-06-20T12:27:40Z">
-      <class name="com.qait.base.Configuration">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.qait.base.Configuration@4501b7af]" name="start" duration-ms="3853" started-at="2018-06-20T12:27:37Z" finished-at="2018-06-20T12:27:40Z">
+    <test started-at="2018-06-28T10:43:01Z" name="Test" finished-at="2018-06-28T10:46:18Z" duration-ms="196770">
+      <class name="com.StudentApp.tests.Test_WelcomePage">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@49c7b90e]" started-at="2018-06-28T10:43:01Z" name="start" finished-at="2018-06-28T10:43:47Z" duration-ms="45757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-      </class> <!-- com.qait.base.Configuration -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="createInstances()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@49c7b90e]" started-at="2018-06-28T10:43:47Z" name="createInstances" finished-at="2018-06-28T10:43:47Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstances -->
+        <test-method signature="TC_001_verify_loginpanel_section()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@49c7b90e]" started-at="2018-06-28T10:43:47Z" name="TC_001_verify_loginpanel_section" finished-at="2018-06-28T10:44:33Z" duration-ms="45805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_verify_loginpanel_section -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@49c7b90e]" started-at="2018-06-28T10:44:33Z" name="stop" finished-at="2018-06-28T10:44:33Z" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.StudentApp.tests.Test_WelcomePage -->
+      <class name="com.StudentApp.tests.Test_Login">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.StudentApp.tests.Test_Login@10d307f1]" started-at="2018-06-28T10:44:33Z" name="start" finished-at="2018-06-28T10:45:17Z" duration-ms="43324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="createInstances()[pri:0, instance:com.StudentApp.tests.Test_Login@10d307f1]" started-at="2018-06-28T10:45:17Z" name="createInstances" finished-at="2018-06-28T10:45:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstances -->
+        <test-method signature="TC001_Login_With_Credentials()[pri:0, instance:com.StudentApp.tests.Test_Login@10d307f1]" started-at="2018-06-28T10:45:17Z" name="TC001_Login_With_Credentials" finished-at="2018-06-28T10:46:17Z" duration-ms="60642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_Login_With_Credentials -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:com.StudentApp.tests.Test_Login@10d307f1]" started-at="2018-06-28T10:46:17Z" name="stop" finished-at="2018-06-28T10:46:18Z" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.StudentApp.tests.Test_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
