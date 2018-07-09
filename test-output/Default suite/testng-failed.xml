@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.StudentApp.tests.Test_Login">
+      <class name="com.StudentApp.tests.Test_WelcomePage">
         <methods>
-          <include name="TC001_Login_blankCredentials"/>
           <include name="stop"/>
           <include name="start"/>
+          <include name="TC_001_verify_loginpanel_section"/>
           <include name="createInstances"/>
         </methods>
-      </class> <!-- com.StudentApp.tests.Test_Login -->
+      </class> <!-- com.StudentApp.tests.Test_WelcomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

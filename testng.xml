@@ -8,8 +8,6 @@
 				<methods>
 					<include name="TC_001_verify_loginpanel_section" />
 					
-					
-					<exclude name="TC_008_verify_payrollLink_section" />
 				</methods>
 			</class>
 			
@@ -18,7 +16,7 @@
 					
 					<include name="TC001_Login_With_Credentials" />
 					
-					<exclude name="TC_008_verify_payrollLink_section" />
+					
 				</methods>
 			</class>
 			

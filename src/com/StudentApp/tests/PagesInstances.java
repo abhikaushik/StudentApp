@@ -22,8 +22,8 @@ public class PagesInstances extends Configuration{
 	{
 		welcome = ResourceBundle.getBundle("WelcomePage");
 		wc_page = new WelcomePage(driver);
-		Home =ResourceBundle.getBundle("HomePage");
-		home_page = new HomePage(driver);
+		//Home =ResourceBundle.getBundle("HomePage");
+		//home_page = new HomePage(driver);
 		
 	}
 	

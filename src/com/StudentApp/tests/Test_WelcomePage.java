@@ -16,6 +16,7 @@ public class Test_WelcomePage extends PagesInstances {
 		System.out.println("wc_page1: "+wc_page);
 		
 		wc_page.click_LoginPanel_section();
+		Thread.sleep(6000);
 		driver.manage().window().maximize() ;
 		GeneralUtilities.staticwait(500);
 		

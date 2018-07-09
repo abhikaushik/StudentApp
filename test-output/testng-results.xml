@@ -1,43 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-06-28T10:43:01Z" name="Suite" finished-at="2018-06-28T10:46:18Z" duration-ms="196770">
+  <suite name="Suite" duration-ms="19375" started-at="2018-07-09T09:27:04Z" finished-at="2018-07-09T09:27:23Z">
     <groups>
     </groups>
-    <test started-at="2018-06-28T10:43:01Z" name="Test" finished-at="2018-06-28T10:46:18Z" duration-ms="196770">
+    <test name="Test" duration-ms="19375" started-at="2018-07-09T09:27:04Z" finished-at="2018-07-09T09:27:23Z">
       <class name="com.StudentApp.tests.Test_WelcomePage">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@49c7b90e]" started-at="2018-06-28T10:43:01Z" name="start" finished-at="2018-06-28T10:43:47Z" duration-ms="45757" status="PASS">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@1877ab81]" name="start" is-config="true" duration-ms="19324" started-at="2018-07-09T09:27:04Z" finished-at="2018-07-09T09:27:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="createInstances()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@49c7b90e]" started-at="2018-06-28T10:43:47Z" name="createInstances" finished-at="2018-06-28T10:43:47Z" duration-ms="3" status="PASS">
+        <test-method status="FAIL" signature="createInstances()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@1877ab81]" name="createInstances" is-config="true" duration-ms="10" started-at="2018-07-09T09:27:23Z" finished-at="2018-07-09T09:27:23Z">
+          <exception class="java.util.MissingResourceException">
+            <message>
+              <![CDATA[Can't find bundle for base name HomePage, locale en_US]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.MissingResourceException: Can't find bundle for base name HomePage, locale en_US
+at java.util.ResourceBundle.throwMissingResourceException(Unknown Source)
+at java.util.ResourceBundle.getBundleImpl(Unknown Source)
+at java.util.ResourceBundle.getBundle(Unknown Source)
+at com.StudentApp.tests.PagesInstances.createInstances(PagesInstances.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.MissingResourceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstances -->
-        <test-method signature="TC_001_verify_loginpanel_section()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@49c7b90e]" started-at="2018-06-28T10:43:47Z" name="TC_001_verify_loginpanel_section" finished-at="2018-06-28T10:44:33Z" duration-ms="45805" status="PASS">
+        <test-method status="SKIP" signature="TC_001_verify_loginpanel_section()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@1877ab81]" name="TC_001_verify_loginpanel_section" duration-ms="0" started-at="2018-07-09T09:27:23Z" finished-at="2018-07-09T09:27:23Z">
+          <exception class="java.util.MissingResourceException">
+            <message>
+              <![CDATA[Can't find bundle for base name HomePage, locale en_US]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.MissingResourceException: Can't find bundle for base name HomePage, locale en_US
+at java.util.ResourceBundle.throwMissingResourceException(Unknown Source)
+at java.util.ResourceBundle.getBundleImpl(Unknown Source)
+at java.util.ResourceBundle.getBundle(Unknown Source)
+at com.StudentApp.tests.PagesInstances.createInstances(PagesInstances.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.MissingResourceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001_verify_loginpanel_section -->
-        <test-method is-config="true" signature="stop()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@49c7b90e]" started-at="2018-06-28T10:44:33Z" name="stop" finished-at="2018-06-28T10:44:33Z" duration-ms="594" status="PASS">
+        <test-method status="SKIP" signature="stop()[pri:0, instance:com.StudentApp.tests.Test_WelcomePage@1877ab81]" name="stop" is-config="true" duration-ms="0" started-at="2018-07-09T09:27:23Z" finished-at="2018-07-09T09:27:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->
       </class> <!-- com.StudentApp.tests.Test_WelcomePage -->
       <class name="com.StudentApp.tests.Test_Login">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.StudentApp.tests.Test_Login@10d307f1]" started-at="2018-06-28T10:44:33Z" name="start" finished-at="2018-06-28T10:45:17Z" duration-ms="43324" status="PASS">
+        <test-method status="SKIP" signature="start()[pri:0, instance:com.StudentApp.tests.Test_Login@305fd85d]" name="start" is-config="true" duration-ms="0" started-at="2018-07-09T09:27:23Z" finished-at="2018-07-09T09:27:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="createInstances()[pri:0, instance:com.StudentApp.tests.Test_Login@10d307f1]" started-at="2018-06-28T10:45:17Z" name="createInstances" finished-at="2018-06-28T10:45:17Z" duration-ms="0" status="PASS">
+        <test-method status="SKIP" signature="createInstances()[pri:0, instance:com.StudentApp.tests.Test_Login@305fd85d]" name="createInstances" is-config="true" duration-ms="0" started-at="2018-07-09T09:27:23Z" finished-at="2018-07-09T09:27:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstances -->
-        <test-method signature="TC001_Login_With_Credentials()[pri:0, instance:com.StudentApp.tests.Test_Login@10d307f1]" started-at="2018-06-28T10:45:17Z" name="TC001_Login_With_Credentials" finished-at="2018-06-28T10:46:17Z" duration-ms="60642" status="PASS">
+        <test-method status="SKIP" signature="TC001_Login_With_Credentials()[pri:0, instance:com.StudentApp.tests.Test_Login@305fd85d]" name="TC001_Login_With_Credentials" duration-ms="0" started-at="2018-07-09T09:27:23Z" finished-at="2018-07-09T09:27:23Z">
+          <exception class="java.util.MissingResourceException">
+            <message>
+              <![CDATA[Can't find bundle for base name HomePage, locale en_US]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.MissingResourceException: Can't find bundle for base name HomePage, locale en_US
+at java.util.ResourceBundle.throwMissingResourceException(Unknown Source)
+at java.util.ResourceBundle.getBundleImpl(Unknown Source)
+at java.util.ResourceBundle.getBundle(Unknown Source)
+at com.StudentApp.tests.PagesInstances.createInstances(PagesInstances.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.MissingResourceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_Login_With_Credentials -->
-        <test-method is-config="true" signature="stop()[pri:0, instance:com.StudentApp.tests.Test_Login@10d307f1]" started-at="2018-06-28T10:46:17Z" name="stop" finished-at="2018-06-28T10:46:18Z" duration-ms="604" status="PASS">
+        <test-method status="SKIP" signature="stop()[pri:0, instance:com.StudentApp.tests.Test_Login@305fd85d]" name="stop" is-config="true" duration-ms="0" started-at="2018-07-09T09:27:23Z" finished-at="2018-07-09T09:27:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->
