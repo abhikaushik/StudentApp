@@ -1,0 +1,6 @@
+Navigate to URL :https://unify.performancematters.com
+Go button has been cicked.
+UserName has been entered :districtadmin11
+Password has been entered & hit the login button :training
+Home Page Title :Unify
+Successfully Logged out

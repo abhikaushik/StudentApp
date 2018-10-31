@@ -1,0 +1,19 @@
+============================================
+Navigate to URL :https://unify.performancematters.com
+Go button has been clicked.
+UserName has been entered :districtadmin11
+Password has been entered & hit the login button :training
+Home Page Title :Unify
+Unify Successfully Logged out
+============================================
+Navigate to URL :https://scanview.performancematters.com
+UserName has been entered :districtadmin11
+Password has been entered & hit the login button :training
+Home Page Title :Recent Scans - ScanView - Performance Matters
+Scanview Successfully Logged out
+============================================
+Navigate to URL :https://ola.performancematters.com/ola/ola.html?clientCode=flsunshine
+UserName has been entered :4423678870
+Password has been entered & hit the login button :sunshine
+Home Page Title :Performance Matters | OLA
+ OLA Successfully Logged out
